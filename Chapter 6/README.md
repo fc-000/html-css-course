@@ -1,0 +1,1 @@
+This chapter focused on the proper HTML structure
