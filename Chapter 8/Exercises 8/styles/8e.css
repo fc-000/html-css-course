@@ -1,0 +1,39 @@
+
+.main-message {
+    font-family: Arial;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.pickup-box, .destination-box {
+    font-size: 12px;
+    display: block;
+    width: 290px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    padding-left: 15px;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.request-box {
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 22px;
+    margin-right: 10px;
+}
+
+.schedule-box {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 2px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
