@@ -1,0 +1,29 @@
+div {
+    font-family: Arial;
+}
+
+.whole-box {
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgb(206, 206, 206);
+    padding: 7px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+.num {
+    color: white;
+    background-color: rgb(53, 92, 220);
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 11px;
+    padding-right: 11px;
+}

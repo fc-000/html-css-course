@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+}
+
+p {
+    margin: 1px;
+}
+
+.main-container {
+    width: 320px;
+    justify-content: space-between;
+}
+
+.pfp-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.top-section, .middle-section, .bottom-section {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.info {
+    padding-left: 10px;
+    flex: 1;
+}
+
+.follow-btn {
+    color: white;
+    background-color: rgb(77, 148, 242);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.desc {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 4px;
+}
+
+.status {
+    font-size: 12px;
+    color: grey;
+}
