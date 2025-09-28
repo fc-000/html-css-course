@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.whole-container {
+    width: 340px;
+    box-shadow: 0px 0px 3px 1px rgb(196, 196, 196);
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    padding-bottom: 15px;
+}
+
+.all-inbox {
+    font-size: 12px;
+    color: gray;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.right-section {
+    margin-left: 10px;
+}
+
+.pfp {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title, .subtitle {
+    font-weight: bold;
+}
+
+.time-received {
+    color: gray;
+    font-size: 12px;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 2px;
+}
+
+.body {
+    color: gray;
+    font-size: 14px;
+}
+
