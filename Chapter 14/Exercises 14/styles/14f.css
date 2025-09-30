@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    height: 3000px;
+}
+
+.people {
+    background-color: rgb(49, 50, 50);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+}
+
+.pfp {
+    width: 45px;
+    height: 45px;
+    border-radius: 23px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.info {
+    margin-left: 66px;
+    width: 150px;
+    background-color: rgb(66, 68, 70);
+    padding-left: 12px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.first-row {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12px;
+    align-items: center;
+}
+
+.main-category {
+    color: white;
+    font-size: 12px;
+}
+
+.plus-sign {
+    font-size: 20px;
+    color: grey;
+}
+
+.sub-category {
+    font-weight: bold;
+    color: rgb(125, 125, 125);
+    padding-bottom: 10px;
+}
