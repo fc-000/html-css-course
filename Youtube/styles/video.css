@@ -4,12 +4,18 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
 .video-title {
   margin-top: 0;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .thumbnail {
@@ -22,18 +28,62 @@ p {
 }
 
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
+.profile-picture-container {
+  display: relative;
+}
+
+.profile-picture-container .tooltip-video {
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  border-radius: 4px;
+  box-shadow: 0px 0px 15px 0px grey;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.tooltip-profile-picture {
+  width: 45px;
+  border-radius: 25px;
+}
+
+.tooltip-info {
+  padding-left: 7px;
+  padding-top: 8px;
+}
+
+.tooltip-username {
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+
+.tooltip-subcount {
+  color: rgb(122, 122, 122);
+  font-size: 12px;
+}
+
+.profile-picture-container:hover .tooltip-video {
+  opacity: 1;
+}
+
+
 .thumbnail-row {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   position: relative;
 }
 
 .video-author {
   margin-bottom: 4px;
 }
+
 .video-author,
 .video-stats {
   font-size: 12px;
@@ -47,14 +97,45 @@ p {
   row-gap: 40px;
 }
 
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .video-author, .video-stats {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .video-author, .video-stats {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 .video-time {
-  font-family: Roboto, Arial;
   font-size: 12px;
   font-weight: 500;
-  padding-left: 2px;
-  padding-right: 2px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 4px;
   border-radius: 2px;
   background-color: black;
   color: white;
