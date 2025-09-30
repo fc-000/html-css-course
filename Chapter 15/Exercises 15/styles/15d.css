@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    height: 3000px;
+}
+
+.grey-box {
+    background-color: rgb(108, 108, 108);
+    color: white;
+    width: 320px;
+    height: 180px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+
+.close-btn {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 25px;
+    position: absolute;
+    top: -12px;
+    left: -12px;
+}
+
+.time-stamp {
+    background-color: black;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    position: absolute;
+    bottom: 5px;
+    right: 7px;
+}

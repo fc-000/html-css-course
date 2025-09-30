@@ -1,0 +1,16 @@
+body {
+    font-family: Arial;
+    height: 3000px;
+}
+
+.grey-box {
+    background-color: rgb(108, 108, 108);
+    color: white;
+    width: 320px;
+    height: 180px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}

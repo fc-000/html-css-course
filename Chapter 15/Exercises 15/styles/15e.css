@@ -1,0 +1,21 @@
+body {
+    font-family: Arial;
+}
+
+.product-container {
+    position: relative;
+    width: 200px;
+}
+
+.product-picture {
+    width: 200px;
+    height: 200px;
+}
+
+.product-sale-info {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
